@@ -5,6 +5,10 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aetheria.Api", "Aetheria.Api\Aetheria.Api.csproj", "{4DB87462-0398-474C-AECD-B0DE47788093}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aetheria.Engine", "..\Aetheria.Engine\Aetheria.Engine.csproj", "{3B4F3CC0-2DDD-4664-B4C8-37AE07059F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aetheria.Engine.Tests", "Aetheria.Engine.Tests\Aetheria.Engine.Tests.csproj", "{4A38E17D-6616-4AA2-872B-3084C52EB1B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{4DB87462-0398-474C-AECD-B0DE47788093}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4DB87462-0398-474C-AECD-B0DE47788093}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4DB87462-0398-474C-AECD-B0DE47788093}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B4F3CC0-2DDD-4664-B4C8-37AE07059F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B4F3CC0-2DDD-4664-B4C8-37AE07059F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B4F3CC0-2DDD-4664-B4C8-37AE07059F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B4F3CC0-2DDD-4664-B4C8-37AE07059F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A38E17D-6616-4AA2-872B-3084C52EB1B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A38E17D-6616-4AA2-872B-3084C52EB1B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A38E17D-6616-4AA2-872B-3084C52EB1B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A38E17D-6616-4AA2-872B-3084C52EB1B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
